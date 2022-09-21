@@ -8,11 +8,19 @@ body {
   font-family: 'Century Gothic', sans-serif;
 }
 
+/*.logo{
+  float: left;
+  padding: 20px 0;
+}
+
+.logo img{
+  height: 150px;
+}*/
+
 header {
   width: 100%;
   padding: 40px;
   color: white;
-  text-align: center;
   background: #112d4e;
 }
 
@@ -32,11 +40,11 @@ ul li {
 
 ul li:hover {
   background: #112d4e;
+  
 }
 
 ul li a {
   color: white;
-  text-decoration: none;
 }
 
 .hide {
@@ -65,7 +73,6 @@ ul li a {
   }
 }
 
-
 /*botón de whats*/ 
 
 .btn-wsp{
@@ -93,4 +100,33 @@ ul li a {
       height:63px;
       line-height: 66px;
 }
+=======
+/*---------------------------------------Texto----------------------------------------*/
+div .titulo{
+  text-align: center;
+  margin-top: 40px;
+}
+
+p{
+  text-align: justify;
+  font-family: arial;
+  font-size: 1em;
+  line-height: 2.1em;
+}
+
+div img{
+  display: block;
+  margin: 0px auto;
+}
+
+/*---------------------------------------Pies de página----------------------------------------*/
+footer {
+  width: 100%;
+  padding: 40px;
+  color: white;
+  background: #112d4e;
+}
+footer i{
+  font-size: 35px;
+  margin-left: 25px;
 }
