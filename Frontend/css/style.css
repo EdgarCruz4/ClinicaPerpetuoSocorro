@@ -8,22 +8,13 @@ body {
   font-family: 'Century Gothic', sans-serif;
 }
 
-/*.logo{
-  float: left;
-  padding: 20px 0;
-}
-
-.logo img{
-  height: 150px;
-}*/
-
 header {
   width: 100%;
   padding: 40px;
-  color: white;
+  color: #fff;
   background: #112d4e;
 }
-
+/*---------------------------------------Menu----------------------------------------*/
 nav ul {
   background: #164884;
   text-align: center;
@@ -55,6 +46,14 @@ ul li a {
   cursor: pointer;
   display: none;
 }
+.hide2 {
+  padding: 16px;
+  font-size: 22px;
+  background: #112d4e;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
 
 @media (max-width: 768px) {
   ul li {
@@ -65,13 +64,18 @@ ul li a {
 
   .hide {
     display: block;
+  }  
+  .hide2 {
+    display: block;
   }
+
 
   nav ul {
   display: none;
 
   }
 }
+
 /*---------------------------------------Texto----------------------------------------*/
 div .titulo{
   text-align: center;
