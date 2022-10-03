@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clinica Perpetuo Socorro</title>
+    <!-- Animacion -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS personalizado -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -39,7 +42,7 @@
         </div>
     </header>
     <nav id="barra">
-        <ul id="menu">
+        <ul id="menu" class="menu">
             <li><a href="#" style="text-decoration: none;">Inicio</a></li>
             <li><a href="conocenos.html" style="text-decoration: none;">Conócenos</a></li>
             <li><a href="servicios.html" style="text-decoration: none;">Servicios</a></li>
@@ -52,7 +55,7 @@
         </div>
     </nav>
     <nav id="barra2">
-        <ul id="contactos">
+        <ul id="contactos" class="menu">
             <li><a style="text-decoration: none;" href="759 72 3 12 11">759 72 3 12 11</a></li>
             <li><a style="text-decoration: none;" href="759 72 3 12 12">759 72 3 12 12</a></li>
             <li><a style="text-decoration: none;" href="772 736 30 19">772 736 30 19</a></li>
@@ -77,30 +80,32 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-sm-2"></div>
-                    <div class="col mt">
-
-                      <br>
-                      <div class="texto">
+                    <div class="col mt-5 texto" data-aos="fade-up">
                         <p>
-                          En <b>“Grupo Espinosa Clínica, Farmacia y Rehabilitación”</b> llevamos 40 años brindando atención medica con una clara vocación de respeto, profesionalismo y 
-                          discreción en apoyo a las familias que pasan por momentos difíciles debido a algún padecimiento de salud. nuestra empresa es hoy una sólida organización 
-                          con una visión más amplia en la prestación de sus servicios médicos.
-                          en nuestro centro de atención medica <b>“Clínica del Perpetuo Socorro “</b>. 
-                          <br> Contamos con los procedimientos y personal médico necesario para brindar los servicios 
-                          de salud y atención oportuna. Nuestro equipo e instalaciones garantizan la protección de la salud de nuestros usuarios, y dan tranquilidad a sus familiares.
-                          <br><b>“Grupo Espinosa Clínica, Farmacia y Rehabilitación”</b> es un servicio de apoyo para las personas que ven a la familia como la unidad más sólida cuyos vínculos 
-                          están cimentados en el amor, el respeto y los valores, sabemos que atender la salud es una muestra de amor y de responsabilidad para quienes cuentan con nosotros. 
-                          por esta razón tenemos servicios médicos especializados y la infraestructura necesaria y el equipo adecuado de atención. Nos comprometemos en buscar la seguridad 
-                          para nuestros pacientes y sus familias ante situaciones que irremediablemente se presentaran. nuestra misión es evitarle a sus seres queridos la toma de decisiones 
-                          bajo presión en momentos difíciles. 
-                          contamos con un extenso directorio de especialidades médicas para dar la atención a nuestros pacientes. 
+                            En <b>“Grupo Espinosa Clínica, Farmacia y Rehabilitación”</b> llevamos 40 años brindando atención medica con una clara vocación de respeto, profesionalismo y 
+                            discreción en apoyo a las familias que pasan por momentos difíciles debido a algún padecimiento de salud. nuestra empresa es hoy una sólida organización 
+                            con una visión más amplia en la prestación de sus servicios médicos.
+                            en nuestro centro de atención medica <b>“Clínica del Perpetuo Socorro “</b>. 
+                            <br> Contamos con los procedimientos y personal médico necesario para brindar los servicios 
+                            de salud y atención oportuna. Nuestro equipo e instalaciones garantizan la protección de la salud de nuestros usuarios, y dan tranquilidad a sus familiares.
                         </p>
-                      </div>
-                      
-                      <div>
-                        <!--<img src="multimedia/medico.jpg">-->
-                      </div>
-
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col texto" data-aos="fade-up">
+                        <div>
+                            <img src="multimedia/doctor.jpg" class="img-fluid rounded mr-4 mt-4" style="float: left; height: 450px;">
+                        </div>
+                        <p>
+                            <br><b>“Grupo Espinosa Clínica, Farmacia y Rehabilitación”</b> es un servicio de apoyo para las personas que ven a la familia como la unidad más sólida cuyos vínculos 
+                            están cimentados en el amor, el respeto y los valores, sabemos que atender la salud es una muestra de amor y de responsabilidad para quienes cuentan con nosotros. 
+                            por esta razón tenemos servicios médicos especializados y la infraestructura necesaria y el equipo adecuado de atención. Nos comprometemos en buscar la seguridad 
+                            para nuestros pacientes y sus familias ante situaciones que irremediablemente se presentaran. nuestra misión es evitarle a sus seres queridos la toma de decisiones 
+                            bajo presión en momentos difíciles. 
+                            contamos con un extenso directorio de especialidades médicas para dar la atención a nuestros pacientes.
+                        </p> 
                     </div>
                     <div class="col-sm-2"></div>
                 </div>
@@ -109,7 +114,7 @@
     </main>  
 
 
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="500">
       <div align="center" class="footer">
         <a href="https://api.whatsapp.com/send?phone=7727363019"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.facebook.com/profile.php?id=100083201355162"><i class="fa-brands fa-facebook"></i></a>
@@ -133,8 +138,13 @@
     <!--Exit-->
 
 </body>
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Animacion -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
       $(".hide").on('click', function() {
         $("#barra #menu").toggle('slow');
       })

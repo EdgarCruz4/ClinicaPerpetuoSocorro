@@ -1,0 +1,17 @@
+.contenedor{
+  background-color: rgb(237, 237, 237);
+}
+.listas{
+  font-family: arial;
+  font-size: 1.2em;
+  line-height: 2.1em;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li::marker{
+  font-size: 1.8em;
+  color: #112d4e;
+}
