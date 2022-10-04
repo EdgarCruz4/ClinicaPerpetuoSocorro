@@ -10,38 +10,47 @@ body {
 
 header {
   width: 100%;
-  padding: 40px;
-  color: white;
-  text-align: center;
+  padding: 10px;
+  color: #fff;
   background: #112d4e;
 }
 
-nav ul {
+
+/*---------------------------------------Menu----------------------------------------*/
+nav .menu {
   background: #164884;
   text-align: center;
   list-style: none;
   overflow: hidden;
-
 }
 
-ul li {
+.menu li {
   display: inline-block;
   padding: 20px;
   transition: all ease-in-out 250ms;
 }
 
-ul li:hover {
+.menu li:hover {
   background: #112d4e;
+  
 }
 
-ul li a {
+.menu li a {
   color: white;
-  text-decoration: none;
+  font-size: 1.1em;
 }
 
 .hide {
   padding: 16px;
-  font-size: 22px;
+  font-size: 1.2em;
+  background: #112d4e;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.hide2 {
+  padding: 16px;
+  font-size: 1.2em;
   background: #112d4e;
   color: white;
   cursor: pointer;
@@ -49,7 +58,7 @@ ul li a {
 }
 
 @media (max-width: 768px) {
-  ul li {
+  .menu li {
     width: 100%;
     padding: 15px;
     text-align: left;
@@ -57,10 +66,71 @@ ul li a {
 
   .hide {
     display: block;
+  }  
+  .hide2 {
+    display: block;
   }
 
-  nav ul {
+
+  nav .menu {
   display: none;
 
+  }
+}
+
+/*---------------------------------------Texto----------------------------------------*/
+
+.texto{
+  text-align: justify;
+  font-family: arial;
+  font-size: 1.1em;
+  line-height: 2.1em;
+}
+.conocenos{
+  font-family: arial;
+  font-size: 1.1em;
+  line-height: 2.1em;
+}
+
+
+/*---------------------------------------Pies de página----------------------------------------*/
+footer {
+  width: 100%;
+  padding: 40px;
+  color: white;
+  background: #112d4e;
+}
+footer i{
+  font-size: 35px;
+  margin-left: 25px;
+  color: #FFF;
+}
+/*---------------------------------------Botón de Whatsapp----------------------------------------*/
+
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #13aa4d;
+  color: #FFF;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
   }
 }
