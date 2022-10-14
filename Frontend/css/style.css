@@ -78,6 +78,10 @@ nav .menu {
   }
 }
 
+/*---------------------------------------Contenedor----------------------------------------*/
+.contenedor{
+  background-color: rgb(237, 237, 237);
+}
 /*---------------------------------------Texto----------------------------------------*/
 
 .texto{
@@ -86,12 +90,45 @@ nav .menu {
   font-size: 1.1em;
   line-height: 2.1em;
 }
+.subtitulo h3{
+  font-size: 1.7em;
+}
 .conocenos{
   font-family: arial;
-  font-size: 1.3em;
+  font-size: 20px;
   line-height: 2.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.conocenos h1{
+  font-size: 2em;
+}
+.conocenos p{
+  font-size: 1.17em;
+}
+.servicios{
+  font-family: arial;
+  font-size: 16px;
+  line-height: 2.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servicios ul{
+  font-size: 1.34em;
+}
+.servicios ul li ul li{
+  font-size: .75em;
+}
+/*---------------------------------------IMG----------------------------------------*/
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*---------------------------------------Pies de página----------------------------------------*/
 footer {
@@ -127,10 +164,56 @@ footer i{
   background: #13aa4d;
   color: #FFF;
 }
-@media only screen and (min-width:320px) and (max-width:768px){
+@media only screen and (min-width:320px) and (max-width:1065px){
     .btn-wsp{
         width:63px;
         height:63px;
         line-height: 66px;
+  }
+  .conocenos{
+    font-size: 14px;
+  }
+  .subtitulo h3{
+    font-size: 1.5em;
+  }
+}
+
+/*---------------------------------------Responsive----------------------------------------*/
+
+@media only screen and (min-width: 770px) and (max-width: 1300px){
+  .servicios{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 770px) and (min-width: 576px){
+  .servicios{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 576px) and (min-width: 100px){
+  .servicios{
+    font-size: 12px;
+  }
+  .servicios .lis_b{
+    margin-right: 90px;
+    margin-bottom: 30px;
+  }
+  .servicios .listas{
+    margin-top: 20px;
+  }
+  .conocenos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:450px){
+  header h2{
+    font-size: 23.5px;
+  }
+  header h5{
+    font-size: 16.5px;
+  }
+  div .logo{
+    margin-left: -15px;
   }
 }
