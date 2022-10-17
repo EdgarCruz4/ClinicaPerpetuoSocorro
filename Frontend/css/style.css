@@ -37,7 +37,7 @@ nav .menu {
 
 .menu li a {
   color: white;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .hide {
@@ -87,7 +87,7 @@ nav .menu {
 .texto{
   text-align: justify;
   font-family: arial;
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 2.1em;
 }
 .subtitulo h3{
@@ -217,7 +217,6 @@ footer i{
   div .logo{
     margin-left: -15px;
   }
-}
 }
 
 /*---------------------------------------Botón de messenger----------------------------------------*/
