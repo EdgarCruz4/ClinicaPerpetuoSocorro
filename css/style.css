@@ -11,14 +11,18 @@ body {
 header {
   width: 100%;
   padding: 10px;
-  color: #fff;
-  background: #112d4e;
+  color: #112d4e;
+  background: #8ac8e5;
+}
+
+div .logo img .logo{
+  width: 150px;
 }
 
 
 /*---------------------------------------Menu----------------------------------------*/
 nav .menu {
-  background: #164884;
+  background: #b3d3e6;
   text-align: center;
   list-style: none;
   overflow: hidden;
@@ -31,19 +35,19 @@ nav .menu {
 }
 
 .menu li:hover {
-  background: #112d4e;
+  background: #e0e3e5;
   
 }
 
 .menu li a {
-  color: white;
+  color: #112d4e;
   font-size: 1.2em;
 }
 
 .hide {
   padding: 16px;
   font-size: 1.2em;
-  background: #112d4e;
+  background: #8ac8e5;
   color: white;
   cursor: pointer;
   display: none;
@@ -135,13 +139,13 @@ nav .menu {
 footer {
   width: 100%;
   padding: 40px;
-  color: white;
-  background: #112d4e;
+  color: #112d4e;
+  background: #8ac8e5;
 }
 footer i{
   font-size: 35px;
   margin-left: 25px;
-  color: #FFF;
+  color: #112d4e;
 }
 /*---------------------------------------Botón de Whatsapp----------------------------------------*/
 
@@ -216,6 +220,9 @@ footer i{
   }
   div .logo{
     margin-left: -15px;
+  }
+  img .logo{
+    width: 100px;
   }
 }
 
