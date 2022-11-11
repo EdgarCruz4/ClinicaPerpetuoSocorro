@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Century Gothic', sans-serif;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  color: #112d4e;
+  background: #8ac8e5;
+}
+
+div .logo img .logo{
+  width: 150px;
+}
+
+
+/*---------------------------------------Menu----------------------------------------*/
+nav .menu {
+  background: #b3d3e6;
+  text-align: center;
+  list-style: none;
+  overflow: hidden;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+.menu li:hover {
+  background: #e0e3e5;
+  
+}
+
+.menu li a {
+  color: #112d4e;
+  font-size: 1.2em;
+}
+
+.hide {
+  padding: 16px;
+  font-size: 1.2em;
+  background: #8ac8e5;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.hide2 {
+  padding: 16px;
+  font-size: 1.2em;
+  background: #112d4e;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu li {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+  }
+
+  .hide {
+    display: block;
+  }  
+  .hide2 {
+    display: block;
+  }
+
+
+  nav .menu {
+  display: none;
+
+  }
+}
+
+/*---------------------------------------Contenedor----------------------------------------*/
+.contenedor{
+  background-color: rgb(237, 237, 237);
+}
+/*---------------------------------------Texto----------------------------------------*/
+
+.texto{
+  text-align: justify;
+  font-family: arial;
+  font-size: 1.2em;
+  line-height: 2.1em;
+}
+.subtitulo h3{
+  font-size: 1.7em;
+}
+.conocenos{
+  font-family: arial;
+  font-size: 20px;
+  line-height: 2.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.conocenos h1{
+  font-size: 2em;
+}
+.conocenos p{
+  font-size: 1.17em;
+}
+.servicios{
+  font-family: arial;
+  font-size: 16px;
+  line-height: 2.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.servicios ul{
+  font-size: 1.34em;
+}
+.servicios ul li ul li{
+  font-size: .75em;
+}
+/*---------------------------------------IMG----------------------------------------*/
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .5;
+}
+
+/*---------------------------------------Pies de página----------------------------------------*/
+footer {
+  width: 100%;
+  padding: 40px;
+  color: #112d4e;
+  background: #8ac8e5;
+}
+footer i{
+  font-size: 35px;
+  margin-left: 25px;
+  color: #112d4e;
+}
+/*---------------------------------------Botón de Whatsapp----------------------------------------*/
+
+.btn-wsp{
+  position:fixed;
+  width:60px;
+  height:60px;
+  line-height: 63px;
+  bottom:25px;
+  right:25px;
+  background:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+.btn-wsp:hover{
+  background: #13aa4d;
+  color: #FFF;
+}
+@media only screen and (min-width:320px) and (max-width:1065px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+  }
+  .conocenos{
+    font-size: 14px;
+  }
+  .subtitulo h3{
+    font-size: 1.5em;
+  }
+}
+
+/*---------------------------------------Responsive----------------------------------------*/
+
+@media only screen and (min-width: 770px) and (max-width: 1300px){
+  .servicios{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 770px) and (min-width: 576px){
+  .servicios{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 576px) and (min-width: 100px){
+  .servicios{
+    font-size: 12px;
+  }
+  .servicios .lis_b{
+    margin-right: 90px;
+    margin-bottom: 30px;
+  }
+  .servicios .listas{
+    margin-top: 20px;
+  }
+  .conocenos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width:450px){
+  header h2{
+    font-size: 23.5px;
+  }
+  header h5{
+    font-size: 16.5px;
+  }
+  div .logo{
+    margin-left: -15px;
+  }
+  img .logo{
+    width: 100px;
+  }
+}
+
+/*---------------------------------------Botón de messenger----------------------------------------*/
+.facebook {
+ position: fixed; 
+ right:25px; /*Margen derecho*/
+ bottom:100px; /*Margen abajo*/
+ z-index:999;
+}
+.facebook img {
+ width:60px; /*Alto del icono*/
+ height:60px; /*Ancho del icono*/
+}
+.facebook:hover{
+opacity: 0.7 !important;
+filter: alpha(opacity=70) !important;
+}
