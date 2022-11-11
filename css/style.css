@@ -15,10 +15,6 @@ header {
   background: #8ac8e5;
 }
 
-div .logo img .logo{
-  width: 150px;
-}
-
 
 /*---------------------------------------Menu----------------------------------------*/
 nav .menu {
@@ -42,23 +38,17 @@ nav .menu {
 .menu li a {
   color: #112d4e;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .hide {
   padding: 16px;
   font-size: 1.2em;
   background: #8ac8e5;
-  color: white;
+  color: #112d4e;
   cursor: pointer;
   display: none;
-}
-.hide2 {
-  padding: 16px;
-  font-size: 1.2em;
-  background: #112d4e;
-  color: white;
-  cursor: pointer;
-  display: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media (max-width: 768px) {
