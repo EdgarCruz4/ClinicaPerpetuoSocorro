@@ -9,6 +9,6 @@
   align-items: center;
 }
 ul li::marker{
-  font-size: 1.8em;
+  font-size: 0.8em;
   color: #112d4e;
 }
