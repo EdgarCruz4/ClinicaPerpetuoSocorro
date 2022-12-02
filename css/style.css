@@ -14,6 +14,9 @@ header {
   color: #112d4e;
   background: #8ac8e5;
 }
+header div img{
+  width: 150px;
+}
 
 
 /*---------------------------------------Menu----------------------------------------*/
@@ -201,18 +204,37 @@ footer i{
     margin-bottom: 30px;
   }
 }
-@media screen and (max-width:450px){
+@media screen and (max-width:680px){
+  div .caja_logo{
+    margin-left: -15px;
+  }
   header h2{
     font-size: 23.5px;
   }
   header h5{
     font-size: 16.5px;
   }
-  div .logo{
-    margin-left: -15px;
+  header div img{
+    margin-top: 15px;
+    width: 95px;
   }
-  img .logo{
-    width: 100px;
+}
+
+@media screen and (max-width:420px){
+  header h2{
+    font-size: 19px;
+  }
+  header h5{
+    font-size: 14px;
+  }
+  .menu li {
+    padding: 18px;
+  }
+  .menu li a {
+    font-size: 1em;
+  }
+  .texto{
+    font-size: 1em;
   }
 }
 
