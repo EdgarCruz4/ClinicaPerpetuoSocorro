@@ -126,6 +126,11 @@ nav .menu {
   align-items: center;
   opacity: .5;
 }
+.info1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*---------------------------------------Pies de página----------------------------------------*/
 footer {
