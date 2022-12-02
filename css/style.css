@@ -62,12 +62,7 @@ nav .menu {
 
   .hide {
     display: block;
-  }  
-  .hide2 {
-    display: block;
   }
-
-
   nav .menu {
   display: none;
 
@@ -244,7 +239,31 @@ footer i{
     font-size: 1em;
   }
   footer .footer_text{
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width:380px){
+  header h2{
+    font-size: 17px;
+  }
+  header h5{
+    font-size: 12px;
+  }
+  .menu li {
+    padding: 15px;
+  }
+  .menu li a {
     font-size: 0.9em;
+  }
+  .texto{
+    font-size: 0.9em;
+  }
+  header div img{
+    margin-top: 10px;
+    width: 80px;
+  }
+  .hide {
+    font-size: 1em;
   }
 }
 
