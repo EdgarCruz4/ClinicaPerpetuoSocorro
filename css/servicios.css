@@ -9,6 +9,20 @@
   align-items: center;
 }
 ul li::marker{
-  font-size: 1.8em;
+  font-size: 0.8em;
   color: #112d4e;
+}
+@media screen and (max-width:420px){
+  .listas{
+    font-size: 1em;
+  }
+  ul h4{
+    font-size: 1.1em;
+  }
+  ul h5{
+    font-size: 1em;
+  }
+  div div h3{
+    font-size: 1.4em;
+  }
 }
